@@ -1,0 +1,16 @@
+body{
+    background-image: url('../img/background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+tr,td{
+    border: solid;
+    padding: 3% 3% 2% 2%;
+}
+
+table{
+    border: solid;
+    margin-top: 4%;
+    margin-left: 25%;
+}

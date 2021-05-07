@@ -1,0 +1,178 @@
+body{
+    user-select: none;
+}
+
+#logoimg
+{
+    height: 15%;
+    width: 15%;
+    display: inline;
+    margin-left: 7%;
+    float: left;
+}
+
+#logoimg1{
+    height: 15%;
+    width: 15%;
+    display: inline;
+    margin-left: 5%;
+    clear: both;
+}
+
+#bankname{
+    font-weight: bolder;
+    color: rgb(226, 10, 255);
+    margin-left: 2%;
+    font-size: 100%;
+    width:50%;
+    text-align: center;
+    display: inline;
+    float: left;
+    padding-top: 2%;
+}
+
+
+.uppernav
+{
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: #dd591b;  
+}
+
+
+.uppernav a
+{
+    display: inline-block;
+    border-radius: 5px;
+    border: thin;
+    padding:5px 10px 5px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.uppernav a:hover{
+    color: black;
+}
+
+.sidenav
+{
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: #58dd1b;  
+}
+
+
+.sidenav a
+{
+    display: inline-block;
+    border-radius: 5px;
+    border: thin;
+    padding:5px 10px 5px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.sidenav a:hover{
+    color: red;
+}
+
+.maincontent
+{
+    background-image: url('../img/background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#treeimg{
+    display:block;
+    width: 27%;
+    margin-top: 1%;
+    float: left;
+}
+
+#infot{
+    text-align: center;
+    margin-left: 10%;
+    display: inline-block;
+    width: 60%;
+}
+
+#CreateAccount,#ViewHolder,#MakeTran{
+    background-image: url('../img/background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 4%;
+    padding-bottom: 1%;
+}
+
+#CreateAccount form{
+    width: 45%;
+    border: solid;
+    padding-left: 5%;
+    line-height: 300%;
+    margin-left: 25%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button
+{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]{
+    -moz-appearance: textfield;
+}
+
+#current{
+    color: blue;
+}
+
+#ViewHolder table{
+    width: 80%;
+    margin-left: 10%;
+}
+
+#ViewHolder th{
+    width: 20%;
+    border: solid;
+}
+
+#ViewHolder td{
+    text-align: center;
+    line-height: 200%;
+    padding-top: 1%;
+}
+
+#MakeTran div{
+    display: inline-block;
+    width: 40%;
+    margin-left: 6%;
+    border: solid;
+    text-align: center;
+}
+
+#MakeTran input
+{
+    width: 60%;
+
+}
+#MakeTran button
+{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 30%;
+}
+
+#MakeTran td{
+    line-height: 0%;
+}
+
